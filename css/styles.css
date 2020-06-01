@@ -1,0 +1,58 @@
+body {
+background-color: rosybrown;
+font-family: 'Oxygen', sans-serif;
+}
+
+header{
+background-color: mediumaquamarine;
+}
+
+button{
+    
+}
+
+#tall-section {
+    background-color: mediumaquamarine;
+    height: 1000px;
+}
+
+#random-text {
+    margin: 0 auto 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+
+  p{
+      font-size: 24px;
+      text-align: center;
+  }
+p.text-center {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+   /********** Large devices only **********/
+  @media (min-width: 1200px) {
+   
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+   #tall-section {
+       margin-left: 10px;
+       margin-right: 10px;
+   }
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    margin-left: 10px;
+    margin-right: 10px;
+    }
